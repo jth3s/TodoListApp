@@ -1,0 +1,109 @@
+.header{
+    height: 200px;
+    width: 100%;
+    background-color: #E9EEF6;
+    padding-top: 50px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4b1492, #ff4d01);
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    height: 500px;
+    overflow-y: auto;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .badge {
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    background-color: #008000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .btn-danger {
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .btn-secondary {
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .thick-text{
+    color:#da262f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .hr-thick{
+    border:0;
+    height:1px;
+    background-color:rgb(0, 0, 0);
+    margin: 5px 0 10px 0;
+  }
+
+  .h1-margin{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
